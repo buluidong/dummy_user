@@ -1,0 +1,178 @@
+body {
+	background-color: #313841;
+}
+
+.box {
+		color: white;
+		margin-top: 200px;
+	  text-align: center;
+}
+
+.container {
+	font-family: Helvetica;
+	color: white;
+  margin: 220px ;
+  width: 185px;
+  padding: 0px 50px 75px 50px;
+  border: 1px dotted #313841;
+  background-color: #313841;
+}
+
+h1 {
+	margin-left: 5px;
+}
+
+p {
+  margin-left: 50px;
+  font-family: Helvetica;
+  color: white;
+  font-weight: normal;
+}
+
+#register {
+	position: absolute;
+	top: -40px;
+	left: 40px;
+}
+
+#kindly {
+	position: absolute;
+	top: 310px;
+	left: 870px;
+	text-align: center;
+}
+
+#rpass_img {
+	position: absolute;
+	top: 110px;
+	left: -41px;
+}
+
+#reg_form {
+	position: absolute;
+	top: 280px;
+	left: 850px;
+}
+
+#rname {
+	color: white;
+	background-color: transparent;
+	border: 2px dotted white;
+	height: 36px;
+	width: 218px;
+	position: absolute;
+	
+	left: -41px;
+}
+
+#rtick:hover { transform: scale(1.2);
+}
+
+#tick:hover { margin-left: 10px;
+}
+
+#reg_e {
+	color: white;
+	background-color: transparent;
+	border: 2px dotted #5FBD8F;
+	height: 36px;
+	position: absolute;
+	top: 55px;
+	left: 0px;
+}
+
+#rmail_img {
+
+	position: absolute;
+	top: 55px;
+	left: -41px;
+}
+
+#rpass {
+
+	background-color: transparent;
+	border: 2px dotted #F34541;
+	height: 36px;
+	position: absolute;
+	top: 110px;
+
+}
+
+#rtick {
+	background-color: transparent;
+	height: 36px;
+	position: absolute;
+	top: 112px;
+	left: 133px;
+}
+
+input {
+	background-color: #5FBD8F;
+	font-size: 8;
+	font-family: Helvetica;
+	color: 313841;
+	border: 0px;
+	box-shadow: 0px;
+	border-radius: 2px;
+	height: 40px;
+	padding: 0px 0px 0px 10px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #5FBD8F;
+}
+
+a:visited {
+	color: #F34541;
+}
+
+a:hover {
+	color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#tick {
+	background-color: #F34541;
+	position: absolute;
+	top: 390px;
+	left: 400px;
+
+}
+
+#pass {
+	background-color: #F34541;
+	position: absolute;
+	top: 390px;
+}
+
+#mail_img {
+	position: absolute;
+	top: 335px;
+	left: 233px;
+}
+
+#pass_img {
+	position: absolute;
+	top: 390px;
+	left: 233px;
+}
+
+#ruby {
+	position: absolute;
+	top: 260px;
+	left: 590px;
+}
+
+
+

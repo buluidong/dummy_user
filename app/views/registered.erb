@@ -1,0 +1,28 @@
+<body>
+<div class="container">
+  <h1>{ c(  .   )de }</h1>
+  <p>- login -</p>
+  <img id='ruby' src='ruby.png'>
+
+  <table>
+    <tr>
+    <form id='login2' action='/check' method='post'>
+     <img id='mail_img' src='mail.png'>
+     <input id='e' type='text' name='user[email]'><br>
+     <img id='pass_img' src='lock.png'>
+      <input id='pass' type='password' name='user[password]'>
+      <input id='tick' type='image' src='tick.png' type='Submit'>
+    </form>
+    </tr>
+  </table>
+
+
+  <div id='kindly'>
+    <%= "' #{@user[:username]} '" %><br><br>
+    <%= "kindly login" %><br><br>
+    <%= "<]------" %>
+
+  </div>
+
+</div>
+</body>
